@@ -1,0 +1,520 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1125951500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-30T16:30:41.347Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6772837500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.launchBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Validate Swiggy Application\u0027s Root Page Title",
+        "description": "",
+        "id": "swiggy-application-s-root-page-features;validate-swiggy-application-s-root-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 681401500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42000400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sees the title of the page",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_sees_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8923200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page title should be \"Order food online from India\u0027s best food delivery service. Order from restaurants near you\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Order food online from India\u0027s best food delivery service. Order from restaurants near you\"",
+                  "offset": 21
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1401954800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-30T16:30:50.077Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5951587800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.launchBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validate the presence of Login and Sign up Link in the Root Page",
+        "description": "",
+        "id": "swiggy-application-s-root-page-features;validate-the-presence-of-login-and-sign-up-link-in-the-root-page",
+        "after": [
+          {
+            "result": {
+              "duration": 301049700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 727569500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user tries to see the login and sign in link",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_login_and_sign_in_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647666400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "login and sign in link should be visible with the text \"Login\" and \"Sign up\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Sign up\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.login_and_sign_in_link_should_be_visible_with_the_text(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1121416100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-30T16:30:59.168Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5896062600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.launchBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validate the presence of Delivery Location Text Box and Find Food Button in the Root Page",
+        "description": "",
+        "id": "swiggy-application-s-root-page-features;validate-the-presence-of-delivery-location-text-box-and-find-food-button-in-the-root-page",
+        "after": [
+          {
+            "result": {
+              "duration": 177020200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 704268900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user tries to see delivery location text box \u0026 find food button",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_delivery_location_text_box_find_food_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318723200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "delivery location text box should be visible with placed holder value \"Enter your delivery location\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Enter your delivery location\"",
+                  "offset": 70
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.delivery_location_text_box_should_be_visible_with_placed_holder_value(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 320045900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "find food button should be visible with the text \"FIND FOOD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"FIND FOOD\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.find_food_button_should_be_visible_with_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1633220300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-30T16:31:07.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6207616400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.launchBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validate the presence of Popular Cities in India information in the root page",
+        "description": "",
+        "id": "swiggy-application-s-root-page-features;validate-the-presence-of-popular-cities-in-india-information-in-the-root-page",
+        "after": [
+          {
+            "result": {
+              "duration": 419148900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3397361400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user tries to see the information of popular \u003ccities\u003e in india",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_tries_to_see_the_information_of_popular_cities_in_india()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4915400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be able to view the links with below city name",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_should_be_able_to_view_the_links_with_below_city_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Ahmedabad"
+                ]
+              },
+              {
+                "cells": [
+                  "Bangalore"
+                ]
+              },
+              {
+                "cells": [
+                  "Chennai"
+                ]
+              },
+              {
+                "cells": [
+                  "Delhi"
+                ]
+              },
+              {
+                "cells": [
+                  "Gurgaon"
+                ]
+              },
+              {
+                "cells": [
+                  "Hyderabad"
+                ]
+              },
+              {
+                "cells": [
+                  "Kolkata"
+                ]
+              },
+              {
+                "cells": [
+                  "Mumbai"
+                ]
+              },
+              {
+                "cells": [
+                  "Pune"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1247347600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on root page of swiggy application",
+            "match": {
+              "location": "com.swiggy.steps.RootPageSteps.user_is_on_root_page_of_swiggy_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-30T16:31:19.481Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6124716800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.launchBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Enter and Choose Location For Finding Food in the root page",
+        "description": "",
+        "id": "swiggy-application-s-root-page-features;enter-and-choose-location-for-finding-food-in-the-root-page",
+        "after": [
+          {
+            "result": {
+              "duration": 361736900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.swiggy.hooks.AppHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2337024200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enter the location \"Kumbakonam\" in the search text box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumbakonam\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.userEnterTheLocationInTheSearchTextBox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2567638300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user chooses the desired location \"Kumbakonam Temples, Kanmani Devi Nagar, Kumbakonam, Tamil Nadu, India\" from the drop down",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kumbakonam Temples, Kanmani Devi Nagar, Kumbakonam, Tamil Nadu, India\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.userChooseTheDesiredLocationFromTheDropDown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031956700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User should be navigated to restaurants page with the url \"https://www.swiggy.com/restaurants\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.swiggy.com/restaurants\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.swiggy.steps.RootPageSteps.userShouldBeNavigatedToRestaurantsPageWithBelowURL(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Application\u0027s Root Page features",
+    "description": "",
+    "id": "swiggy-application-s-root-page-features",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/RootPage.feature",
+    "tags": []
+  }
+]

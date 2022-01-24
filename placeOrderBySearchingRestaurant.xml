@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="116.707">
+    <testcase classname="Adding Food Items to the Cart by Searching Restaurant and Food Item Under it" name="Check whether user is able to search restaurant, food item under it and add it to the cart" time="38.935">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError">
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingRestaurant" and 0.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the restaurant name based on value of "placeOrderBySearchingRestaurant" and 0.passed
+Then System should show the list of restaurant similar to the entered value.passed
+When User chooses the desired restaurant based on value of "placeOrderBySearchingRestaurant" and 0 and go to the specific restaurant page.passed
+When User adding the actual food items to the cart based on value of "placeOrderBySearchingRestaurant" and 0.passed
+Then Checkout Button should be visible to the user..........................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.swiggy.steps.PlaceOrderBySearchingRestaurant.checkoutButtonShouldBeVisibleToTheUser(PlaceOrderBySearchingRestaurant.java:87)
+	at ✽.Checkout Button should be visible to the user(file:///D:/lms-workspace/SwiggyCucumber/src/test/resources/features/placeOrderBySearchingRestaurant.feature:13)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Adding Food Items to the Cart by Searching Restaurant and Food Item Under it" name="Check whether user is able to search restaurant, food item under it and add it to the cart 2" time="36.364">
+        <system-out>
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingRestaurant" and 1.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the restaurant name based on value of "placeOrderBySearchingRestaurant" and 1.passed
+Then System should show the list of restaurant similar to the entered value.passed
+When User chooses the desired restaurant based on value of "placeOrderBySearchingRestaurant" and 1 and go to the specific restaurant page.passed
+When User adding the actual food items to the cart based on value of "placeOrderBySearchingRestaurant" and 1.passed
+Then Checkout Button should be visible to the user..........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Adding Food Items to the Cart by Searching Restaurant and Food Item Under it" name="Check whether user is able to search restaurant, food item under it and add it to the cart 3" time="41.262">
+        <failure message="expected [true] but found [false]" type="java.lang.AssertionError">
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingRestaurant" and 2.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the restaurant name based on value of "placeOrderBySearchingRestaurant" and 2.passed
+Then System should show the list of restaurant similar to the entered value.passed
+When User chooses the desired restaurant based on value of "placeOrderBySearchingRestaurant" and 2 and go to the specific restaurant page.passed
+When User adding the actual food items to the cart based on value of "placeOrderBySearchingRestaurant" and 2.passed
+Then Checkout Button should be visible to the user..........................failed
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.swiggy.steps.PlaceOrderBySearchingRestaurant.checkoutButtonShouldBeVisibleToTheUser(PlaceOrderBySearchingRestaurant.java:87)
+	at ✽.Checkout Button should be visible to the user(file:///D:/lms-workspace/SwiggyCucumber/src/test/resources/features/placeOrderBySearchingRestaurant.feature:13)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

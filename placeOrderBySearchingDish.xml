@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="124.997">
+    <testcase classname="Adding Food Items to the Cart by Searching Food Item" name="Check whether user is able to search a food item and add it to the cart" time="30.254">
+        <failure message="Not able to add the dish to the cart,  please check it once expected [true] but found [false]" type="java.lang.AssertionError">
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingDish" and 0.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the dish name based on value from "placeOrderBySearchingDish" and 0.passed
+Then System should show the list of options related to the dish entered.....passed
+When User chooses the desired dish based on value from "placeOrderBySearchingDish" and 0.passed
+Then System should show all the available dish items related to the desired dish to the user.passed
+When User adding the actual food items to the cart based on value from "placeOrderBySearchingDish" and 0.failed
+
+StackTrace:
+java.lang.AssertionError: Not able to add the dish to the cart,  please check it once expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.swiggy.steps.PlaceOrderBySearchingDish.user_adding_the_actual_food_items_to_the_cart_based_on_value_from_and(PlaceOrderBySearchingDish.java:119)
+	at ✽.User adding the actual food items to the cart based on value from "placeOrderBySearchingDish" and 0(file:///D:/lms-workspace/SwiggyCucumber/src/test/resources/features/placeOrderBySearchingDish.feature:13)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Adding Food Items to the Cart by Searching Food Item" name="Check whether user is able to search a food item and add it to the cart 2" time="46.669">
+        <system-out>
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingDish" and 1.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the dish name based on value from "placeOrderBySearchingDish" and 1.passed
+Then System should show the list of options related to the dish entered.....passed
+When User chooses the desired dish based on value from "placeOrderBySearchingDish" and 1.passed
+Then System should show all the available dish items related to the desired dish to the user.passed
+When User adding the actual food items to the cart based on value from "placeOrderBySearchingDish" and 1.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Adding Food Items to the Cart by Searching Food Item" name="Check whether user is able to search a food item and add it to the cart 3" time="47.662">
+        <failure message="Not able to add the dish to the cart,  please check it once expected [true] but found [false]" type="java.lang.AssertionError">
+            <![CDATA[Given Swiggy Application is Up and Running..................................passed
+When User enters and select the desired location from "placeOrderBySearchingDish" and 2.passed
+Then User should be navigated to restaurants page with the url "https://www.swiggy.com/restaurants".passed
+When User clicks Search Link................................................passed
+Then System should show Search For Restaurants or Dishes Search Box.........passed
+When User enters the dish name based on value from "placeOrderBySearchingDish" and 2.passed
+Then System should show the list of options related to the dish entered.....passed
+When User chooses the desired dish based on value from "placeOrderBySearchingDish" and 2.passed
+Then System should show all the available dish items related to the desired dish to the user.passed
+When User adding the actual food items to the cart based on value from "placeOrderBySearchingDish" and 2.failed
+
+StackTrace:
+java.lang.AssertionError: Not able to add the dish to the cart,  please check it once expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at com.swiggy.steps.PlaceOrderBySearchingDish.user_adding_the_actual_food_items_to_the_cart_based_on_value_from_and(PlaceOrderBySearchingDish.java:119)
+	at ✽.User adding the actual food items to the cart based on value from "placeOrderBySearchingDish" and 2(file:///D:/lms-workspace/SwiggyCucumber/src/test/resources/features/placeOrderBySearchingDish.feature:13)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
